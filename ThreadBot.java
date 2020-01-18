@@ -30,8 +30,10 @@ public class ThreadBot extends Robot implements Directions
             if(turno==n){
                 if(rand >4 ){
                     if(frontIsClear() && !crash()){
-                    move();
-                    moved();
+                        move();
+                        moved();
+                    }else{
+                        turnLeft();
                     }                 
                 }else{
                     turnLeft();
