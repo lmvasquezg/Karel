@@ -25,7 +25,7 @@ public class ThreadBot extends Robot implements Directions
 	{
         Random r = new Random();
         while(true){
-            System.out.println(turno);
+            
             int rand = r.nextInt(10); 
             if(turno==n){
                 if(rand >4 ){
